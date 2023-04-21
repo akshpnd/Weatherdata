@@ -36,7 +36,7 @@ app.post("/weather",function(req,res){
        
        const description = wd.weather[0].description;
        
-       res.send("<h1>"+"the temperation of " + wd.name +  " is " + temp + " and weather is " + description +"</h1>");
+       res.send("<h1>"+"the temperature of " + wd.name +  " is " + temp + " and weather is " + description +"</h1>");
        
        })
 
